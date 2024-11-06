@@ -3,10 +3,9 @@ import  Footer  from '@/components/ui/footer';
 import Image from 'next/image';
 
 // Import product images with corrected paths
-import Camera from "../../app/Camera.jpeg";
-import ElectronicGadgets from "../../app/Electronic gadgets.jpeg";
-import HomeDecor from "../../app/home decor.jpeg";
-import Toys from "../../app/toys.jpeg";
+import Camera from "@/app/Camera.jpeg";
+import ElectronicGadgets from "@/app/Electronic gadgets.jpeg";
+import HomeDecor from "@/app/home decor.jpeg";
 
 export default function Home() {
   const featuredProducts = [

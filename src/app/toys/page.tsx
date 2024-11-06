@@ -1,8 +1,8 @@
 import TestProps from "@/components/ui/props";
-import Camera from "../app/Camera.jpeg";
-import ElectronicGadgets from "../app/Electronic gadgets.jpeg";
-import HomeDecor from "../app/home decor.jpeg";
-import Toys from "../app/toys.jpeg";
+import Camera from "@/app/Camera.jpeg";
+import ElectronicGadgets from "@/app/Electronic gadgets.jpeg";
+import HomeDecor from "@/app/home decor.jpeg";
+import Toys from "@/app/toys.jpeg";
 
 const productsData = [
   {
