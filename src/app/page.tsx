@@ -1,9 +1,19 @@
-import ForgotPassword from '@/components/ui/forgotpassword';
+// app/page.tsx
+'use client';
 
-export default function ForgotPasswordPage() {
+import React from 'react';
+import dynamic from 'next/dynamic';
+
+// Import your FoodDeliveryPlatform component
+const FoodDeliveryPlatform = dynamic(
+  () => import('@/components/ui/fooddeliveryplatform'),
+  { ssr: false }
+);
+
+export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <ForgotPassword />
-    </div>
+    <main>
+      <FoodDeliveryPlatform />
+    </main>
   );
 }
