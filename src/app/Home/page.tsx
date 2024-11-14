@@ -38,7 +38,7 @@ export default async function ProductsPage({
       <Suspense fallback={<ProductsSkeleton />}>
         <ProductList products={products} />
       </Suspense>
-      <Pagination totalPages={totalPages} />
+      <Pagination totalPages={totalPages} products={[]} />
     </div>
   )
 }

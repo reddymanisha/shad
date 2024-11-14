@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic';
 
 // Import your FoodDeliveryPlatform component
 const FoodDeliveryPlatform = dynamic(
-  () => import('@/components/ui/fooddeliveryplatform'),
+  () => import('@/components/ui/coffeedeliveryplatform'),
   { ssr: false }
 );
 
